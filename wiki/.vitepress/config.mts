@@ -39,6 +39,192 @@ export default defineConfig({
           { text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
+      {
+        text: "Minecraft Servers",
+        collapsed: true,
+        items: [
+          {
+            text: "Player vs Player",
+            collapsed: true,
+            items: [
+              {
+                text: "SMP Server Guides",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+              {
+                text: "Skyblock Server Guides",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            text: "Player vs Enviroment",
+            collapsed: true,
+            items: [
+              {
+                text: "SMP Server Guides",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+              {
+                text: "Skyblock Server Guides",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        text: "Rust Servers",
+        collapsed: true,
+        items: [
+          {
+            text: "Player vs Player",
+            collapsed: true,
+            items: [
+              {
+                text: "Server Guides",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+              {
+                text: "Server Commands",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            text: "Player vs Enviroment",
+            collapsed: true,
+            items: [
+              {
+                text: "Server Guides",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+              {
+                text: "Server Commands",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        text: "7 Days To Die Servers",
+        collapsed: true,
+        items: [
+          {
+            text: "Player vs Player",
+            collapsed: true,
+            items: [
+              {
+                text: "Server Modlets",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+              {
+                text: "Server Commands",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            text: "Player vs Enviroment",
+            collapsed: true,
+            items: [
+              {
+                text: "Server Modlets",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+              {
+                text: "Server Commands",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Example 1",
+                    collapsed: true,
+                    items: [],
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
 
     socialLinks: [
