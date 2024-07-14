@@ -49,6 +49,10 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
+            text: "Minecraft Servers Information",
+            link: "/Minecraft/game-servers-information",
+          },
+          {
             text: "Player vs Player",
             collapsed: true,
             items: [
@@ -111,6 +115,10 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
+            text: "Rust Servers Information",
+            link: "/Rust/game-servers-information",
+          },
+          {
             text: "Player vs Player",
             collapsed: true,
             items: [
@@ -172,6 +180,10 @@ export default defineConfig({
         text: "7 Days To Die Servers",
         collapsed: true,
         items: [
+          {
+            text: "7 Days To Die Servers Information",
+            link: "/7 Days To Die/game-servers-information",
+          },
           {
             text: "Player vs Player",
             collapsed: true,
