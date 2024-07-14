@@ -39,11 +39,10 @@ const members = [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      Our Team
+      Meet The Rogue Vikings Staff Team
     </template>
     <template #lead>
-      The development of VitePress is guided by an international
-      team, some of whom have chosen to be featured below.
+      Team bio is coming soon!
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
