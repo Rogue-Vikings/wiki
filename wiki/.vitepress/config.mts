@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Rogue Vikings Servers Wiki & Knowledgebase",
   description:
     "Minecraft PVE Servers, Minecraft SMP Servers, Rust PVE Servers, 7 Days To Die PVE Servers, Tutorials and Server Guides for Rogue Vikings Gaming Servers",
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -30,6 +31,10 @@ export default defineConfig({
         ],
       },
     ],
+
+    search: {
+      provider: "local",
+    },
 
     sidebar: [
       {
