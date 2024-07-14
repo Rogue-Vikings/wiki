@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: alt
       text: Checkout Our Server Guides
-      link: /api-examples
+      link: /welcome-to-rogue-vikings
     - theme: brand
       text: Learn More About Us On Discord
       link: https://discord.gg/6Zy29qbkKD

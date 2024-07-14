@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Rogue Vikings Servers Wiki & Knowledgebase",
+  title: "Rogue Vikings Servers Wiki",
   description:
     "Minecraft PVE Servers, Minecraft SMP Servers, Rust PVE Servers, 7 Days To Die PVE Servers, Tutorials and Server Guides for Rogue Vikings Gaming Servers",
   lastUpdated: true,
@@ -10,7 +10,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Guides", link: "/guides" },
+      { text: "Guides", link: "/welcome-to-rogue-vikings" },
       { text: "Meet The Team", link: "/meet-rogue-vikings-staff-team" },
       { text: "Join Our Discord", link: "https://discord.gg/6Zy29qbkKD" },
       {
@@ -38,11 +38,8 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
+        text: "Welcome To Rogue Vikings",
+        items: [{ text: "Introduction", link: "/welcome-to-rogue-vikings" }],
       },
       {
         text: "Minecraft Servers",
