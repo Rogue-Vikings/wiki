@@ -6,6 +6,9 @@ hero:
   name: "Rogue Vikings Servers Knowledgebase"
   text: "How to guides and tutorials for our Rogue Vikings Gaming Servers."
   tagline: Minecraft PVE Servers, Minecraft SMP Servers, Rust PVE Servers, 7 Days To Die PVE Servers, Tutorials and Server Guides for Rogue Vikings Gaming Servers
+  image:
+    src: /icon.webp
+    alt: Rogue Vikings Official Logo
   actions:
     - theme: alt
       text: Checkout Our Server Guides
