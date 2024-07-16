@@ -1,3 +1,11 @@
+::: warning
+Explore the comprehensive list of server commands below, encompassing a variety of functionalities. Please note that certain commands are reserved for administrators, ensuring the smooth operation and security of our servers.
+:::
+
+# Commands & Permissions
+
+- To utilize any `/ae` command, ensure that you have been granted the `ae.help` permission. This permission is essential for accessing and using the commands effectively.
+
 | Command                                                                   | Explanation                                                                                                       | Permission                            |
 | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | `/aegive (player) (material) (amount) [additional args]`                  | Gives a specified amount of a material to a player. Additional arguments may be used for specific configurations. | `aegive.permission`                   |
@@ -33,3 +41,7 @@
 | `/ae unenchant (enchant)`                                                 | Removes a specified enchantment from the currently held item.                                                     | `ae.unenchant`                        |
 | `/ae view (enchant)`                                                      | Opens a menu displaying detailed information about a specific enchantment, including its effects and usage.       | Same as `enchantment-info` permission |
 | `/ae zip`                                                                 | Creates a zip file containing all contents of the Advanced Enchantments plugin folder.                            | `ae.zip`                              |
+
+::: danger Heads up!
+If you encounter any issues with player commands not functioning as expected, please click the "[Discord](https://discord.gg/6Zy29qbkKD)" button above. You can report the problem directly on our Discord server by submitting a support ticket. Our dedicated support team is ready to assist you promptly.
+:::
