@@ -2,7 +2,9 @@
 Explore the comprehensive list of server commands below, encompassing a variety of functionalities. Please note that certain commands are reserved for administrators, ensuring the smooth operation and security of our servers.
 :::
 
-# Commands & Permissions
+# Minecraft Server Commands &
+
+**Minecraft Server Permissions**
 
 - To utilize any `/ae` command, ensure that you have been granted the `ae.help` permission. This permission is essential for accessing and using the commands effectively.
 
