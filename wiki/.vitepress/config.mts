@@ -39,7 +39,13 @@ export default defineConfig({
     sidebar: [
       {
         text: "Welcome To Rogue Vikings",
-        items: [{ text: "Introduction", link: "/welcome-to-rogue-vikings" }],
+        items: [
+          { text: "Introduction", link: "/welcome-to-rogue-vikings" },
+          {
+            text: "Learn Our Rankings",
+            link: "/meet-rogue-vikings-staff-team",
+          },
+        ],
       },
       {
         text: "Minecraft Servers",
