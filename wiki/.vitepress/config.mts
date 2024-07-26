@@ -9,11 +9,8 @@ export default defineConfig({
     "Minecraft PVE Servers, Minecraft SMP Servers, Rust PVE Servers, 7 Days To Die PVE Servers, Tutorials and Server Guides for Rogue Vikings Gaming Servers",
   head: [
     ["meta", { name: "theme-color", content: "#fff3b0" }],
-    ["link", { rel: "icon", href: "/public/favicon.ico", sizes: "any" }],
-    [
-      "link",
-      { rel: "icon", href: "/public/favicon.svg", type: "image/svg+xml" },
-    ],
+    ["link", { rel: "icon", href: "/favicon.ico", sizes: "any" }],
+    ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
     [
       "link",
       { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#fff3b0" },
@@ -68,7 +65,7 @@ export default defineConfig({
       "link",
       {
         rel: "apple-touch-icon",
-        href: "/public/apple-touch-icon.png",
+        href: "/apple-touch-icon.png",
         sizes: "180x180",
       },
     ],
