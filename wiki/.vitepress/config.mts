@@ -1,20 +1,22 @@
 import { defineConfig } from "vitepress";
 
-const ogUrl = "https://vite-pwa-org.netlify.app/";
-const ogImage = `${ogUrl}og-image.png`;
+const ogUrl = "https://roguevikings.com/wp-content/uploads/2024/07/";
+const ogImage = `${ogUrl}Rogue-Vikings-Gaming-Wiki-Meta-Description-Image.webp`;
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Rogue Vikings Servers Wiki",
   description:
     "Minecraft PVE Servers, Minecraft SMP Servers, Rust PVE Servers, 7 Days To Die PVE Servers, Tutorials and Server Guides for Rogue Vikings Gaming Servers",
   head: [
-    ["meta", { name: "theme-color", content: "#ffffff" }],
-    ["link", { rel: "icon", href: "/favicon.ico", sizes: "any" }],
-    ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
+    ["meta", { name: "theme-color", content: "#fff3b0" }],
+    ["link", { rel: "icon", href: "/public/favicon.ico", sizes: "any" }],
     [
       "link",
-      { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#ffffff" },
+      { rel: "icon", href: "/public/favicon.svg", type: "image/svg+xml" },
+    ],
+    [
+      "link",
+      { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#fff3b0" },
     ],
     ["meta", { name: "author", content: "Rogue Vikings" }],
     [
@@ -22,18 +24,24 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "PWA, React, Vue, VitePress, Preact, Svelte, SvelteKit, workbox, SolidJS, Vite, vite-plugin, îles, Astro, Nuxt 3, Nuxt module",
+          "Minecraft PVE Servers, Minecraft SMP Servers, Rust PVE Servers, 7 Days To Die PVE Servers, Tutorials and Server Guides for Rogue Vikings Gaming Servers",
       },
     ],
     ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:title", content: "Vite Plugin PWA" }],
+    [
+      "meta",
+      {
+        property: "og:title",
+        content: "Rogue Vikings - Minecraft Guide, Rust Guide, 7D2D Guide",
+      },
+    ],
     ["meta", { property: "og:image", content: ogImage }],
     [
       "meta",
       {
         property: "og:description",
         content:
-          "Zero-config PWA Framework-agnostic Plugin for Vite and Integrations",
+          "Curious to know what our Rogue Vikings gaming servers have to offer? Click us to read more!",
       },
     ],
     ["meta", { property: "og:url", content: ogUrl }],
@@ -42,10 +50,16 @@ export default defineConfig({
       {
         name: "twitter:description",
         content:
-          "Zero-config PWA Framework-agnostic Plugin for Vite and Integrations",
+          "Curious to know what our Rogue Vikings gaming servers have to offer? Click us to read more!",
       },
     ],
-    ["meta", { name: "twitter:title", content: "Vite PWA" }],
+    [
+      "meta",
+      {
+        name: "twitter:title",
+        content: "Rogue Vikings - Minecraft Guide, Rust Guide, 7D2D Guide",
+      },
+    ],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "twitter:image", content: ogImage }],
     ["meta", { name: "twitter:site", content: "@antfu7" }],
@@ -54,7 +68,7 @@ export default defineConfig({
       "link",
       {
         rel: "apple-touch-icon",
-        href: "/apple-touch-icon.png",
+        href: "/public/apple-touch-icon.png",
         sizes: "180x180",
       },
     ],
