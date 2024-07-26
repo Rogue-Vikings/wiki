@@ -15,7 +15,7 @@ export default defineConfig({
       "link",
       { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#fff3b0" },
     ],
-    ["meta", { name: "author", content: "Rogue Vikings" }],
+    ["meta", { name: "author", content: "Samuel Davis" }],
     [
       "meta",
       {
@@ -99,6 +99,15 @@ export default defineConfig({
 
     search: {
       provider: "local",
+    },
+
+    footer: {
+      copyright:
+        '2024 © <a href="https://gameservershub.com/tos">Copyright</a> GameServersHub: All rights reserved.',
+    },
+
+    outline: {
+      level: "deep",
     },
 
     sidebar: [
