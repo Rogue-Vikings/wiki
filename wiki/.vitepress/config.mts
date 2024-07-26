@@ -1,10 +1,64 @@
 import { defineConfig } from "vitepress";
 
+const ogUrl = "https://vite-pwa-org.netlify.app/";
+const ogImage = `${ogUrl}og-image.png`;
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Rogue Vikings Servers Wiki",
   description:
     "Minecraft PVE Servers, Minecraft SMP Servers, Rust PVE Servers, 7 Days To Die PVE Servers, Tutorials and Server Guides for Rogue Vikings Gaming Servers",
+  head: [
+    ["meta", { name: "theme-color", content: "#ffffff" }],
+    ["link", { rel: "icon", href: "/favicon.ico", sizes: "any" }],
+    ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
+    [
+      "link",
+      { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#ffffff" },
+    ],
+    ["meta", { name: "author", content: "Rogue Vikings" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content:
+          "PWA, React, Vue, VitePress, Preact, Svelte, SvelteKit, workbox, SolidJS, Vite, vite-plugin, îles, Astro, Nuxt 3, Nuxt module",
+      },
+    ],
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { property: "og:title", content: "Vite Plugin PWA" }],
+    ["meta", { property: "og:image", content: ogImage }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content:
+          "Zero-config PWA Framework-agnostic Plugin for Vite and Integrations",
+      },
+    ],
+    ["meta", { property: "og:url", content: ogUrl }],
+    [
+      "meta",
+      {
+        name: "twitter:description",
+        content:
+          "Zero-config PWA Framework-agnostic Plugin for Vite and Integrations",
+      },
+    ],
+    ["meta", { name: "twitter:title", content: "Vite PWA" }],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    ["meta", { name: "twitter:image", content: ogImage }],
+    ["meta", { name: "twitter:site", content: "@antfu7" }],
+    ["meta", { name: "twitter:url", content: ogUrl }],
+    [
+      "link",
+      {
+        rel: "apple-touch-icon",
+        href: "/apple-touch-icon.png",
+        sizes: "180x180",
+      },
+    ],
+  ],
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
