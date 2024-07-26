@@ -6,7 +6,7 @@ const ogImage = `${ogUrl}Rogue-Vikings-Gaming-Wiki-Meta-Description-Image.webp`;
 export default defineConfig({
   title: "Rogue Vikings: Minecraft & Rust PVE, 7 Days To Die Guides",
   description:
-    "Minecraft PVE Servers, Minecraft SMP Servers, Rust PVE Servers, 7 Days To Die PVE Servers, Tutorials and Server Guides for Rogue Vikings Gaming Servers",
+    "Rogue Vikings offers epic Minecraft PVE, Rust PVE, and 7 Days To Die PVE experiences. Join our Discord server for expert tips, support, and detailed tutorials!",
   head: [
     ["meta", { name: "theme-color", content: "#fff3b0" }],
     ["link", { rel: "icon", href: "/favicon.ico", sizes: "any" }],
@@ -38,7 +38,7 @@ export default defineConfig({
       {
         property: "og:description",
         content:
-          "Curious to know what our Rogue Vikings gaming servers have to offer? Click us to read more!",
+          "Rogue Vikings offers epic Minecraft PVE, Rust PVE, and 7 Days To Die PVE experiences. Join our Discord server for expert tips, support, and detailed tutorials!",
       },
     ],
     ["meta", { property: "og:url", content: ogUrl }],
@@ -47,7 +47,7 @@ export default defineConfig({
       {
         name: "twitter:description",
         content:
-          "Curious to know what our Rogue Vikings gaming servers have to offer? Click us to read more!",
+          "Rogue Vikings offers epic Minecraft PVE, Rust PVE, and 7 Days To Die PVE experiences. Join our Discord server for expert tips, support, and detailed tutorials!",
       },
     ],
     [
