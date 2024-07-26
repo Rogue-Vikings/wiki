@@ -4,7 +4,7 @@ const ogUrl = "https://roguevikings.com/wp-content/uploads/2024/07/";
 const ogImage = `${ogUrl}Rogue-Vikings-Gaming-Wiki-Meta-Description-Image.webp`;
 
 export default defineConfig({
-  title: "Rogue Vikings Servers Wiki",
+  title: "Rogue Vikings: Minecraft & Rust PVE, 7 Days To Die Guides",
   description:
     "Minecraft PVE Servers, Minecraft SMP Servers, Rust PVE Servers, 7 Days To Die PVE Servers, Tutorials and Server Guides for Rogue Vikings Gaming Servers",
   head: [
@@ -29,7 +29,7 @@ export default defineConfig({
       "meta",
       {
         property: "og:title",
-        content: "Rogue Vikings - Minecraft Guide, Rust Guide, 7D2D Guide",
+        content: "Rogue Vikings: Minecraft PVE, Rust PVE, 7 Days To Die Guides",
       },
     ],
     ["meta", { property: "og:image", content: ogImage }],
@@ -54,7 +54,7 @@ export default defineConfig({
       "meta",
       {
         name: "twitter:title",
-        content: "Rogue Vikings - Minecraft Guide, Rust Guide, 7D2D Guide",
+        content: "Rogue Vikings: Minecraft PVE, Rust PVE, 7 Days To Die Guides",
       },
     ],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
