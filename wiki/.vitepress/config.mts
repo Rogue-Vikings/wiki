@@ -143,6 +143,16 @@ export default defineConfig({
                   },
                 ],
               },
+              {
+                text: "Server Features",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Mystery Crates",
+                    link: "/Minecraft/Server Features/minecraft-crates",
+                  },
+                ],
+              },
             ],
           },
         ],
